@@ -1,4 +1,17 @@
 .TodoList {
-	background: #000;
-	color: #FFF;
+	background: #00255C;
+	color: #9ECAFF;
+	width: 50%;
+	text-align: center;
+	padding: 20px;
+	border-radius: 5px;
+	font-family: 'Questrial', sans-serif;
+
+}
+.TodoList ul {
+	list-style: none;
+	padding-left: 0;
+}
+.TodoList li {
+	padding: 10px;
 }

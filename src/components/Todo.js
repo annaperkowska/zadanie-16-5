@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Todo = props =>
-	<li key={item.id} onClick={()=> {props.remove(item.id)}}>{props.name}</li>
+const Todo = ({item, removeTodo}) => {
+	return <li key={item.id} onClick={()=> removeTodo(item.id)}><i class="fas fa-angle-left"></i>  {item.text}  <i class="fas fa-angle-right"></i></li>
+};
 
 export default Todo;

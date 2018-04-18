@@ -1,12 +1,18 @@
+* {
+	box-sizing: border-box;
+}
 .TodoApp {
-	background-color: #F5F5F5;
-	color: #222;
+	background-color: #9ECAFF;
+	color: #00255C;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	width: 100vw;
+	width: 90%;
 	height: 100vh;
+	margin: 0 auto;
+	border: 5px solid #00255C;
+	font-family: 'Questrial', sans-serif;
 }

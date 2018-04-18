@@ -1,3 +1,13 @@
 .TodoForm {
-	color: red;
+	font-family: 'Questrial', sans-serif;
+}
+form {
+	padding: 20px;
+}
+label {
+	font-family: 'Questrial', sans-serif;
+	color: #00255C;
+}
+input {
+	background: #AEC9EA;
 }
